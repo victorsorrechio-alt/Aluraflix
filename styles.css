@@ -1,48 +1,58 @@
 body {
-    color: white;
-    background: black;
-    margin: 0px;
-    font-family: "Chakra Petch", sans-serif;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #181818;
+    color: #f1f1f1;
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(42, 122, 228);
+    background: #101014;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #222;
 }
 
-.chamada {
-    background: rgb(184, 156, 213);
-    padding-bottom: 80px;
-    padding-top: 80px;
+header h1 {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 
-.chamada-texto {
-    margin-right: 5%;
+nav a {
+    color: #48a9e6;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-h1 {
-    font-size: 40px;
+nav a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #48a9e6;
 }
 
-p {
-    font-size: 20px;
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
-img {
-    height: 200px;
+section {
+    margin-bottom: 40px;
 }
 
-.categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
+footer {
+    background: #101014;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #222;
+    color: #bbb;
 }
-
-.categoria {
-    padding-left: 20px;
-    padding-right: 20px;
-}
+   
